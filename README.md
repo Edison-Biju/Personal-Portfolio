@@ -37,3 +37,4 @@ CSS3
 JavaScript
 Font Awesome (icons)
 # Edison-Resume
+# Edison_Resume
