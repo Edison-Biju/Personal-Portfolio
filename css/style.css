@@ -1,0 +1,1236 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Inter Light';
+    color: #000;
+    list-style: none;
+}
+.reviews {
+    min-height: 56vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #efefef;
+  }
+
+
+
+
+button{
+    cursor: pointer;
+}
+.wrapper {
+    display: block;
+    margin: 0px 4vw;
+}
+header {
+    padding: 24px 0px;
+}
+header section.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header section.wrapper section.left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header section.wrapper section.left div.logo {
+    display: flex;
+    align-items: center;
+    margin-right: 36vh;
+}
+
+header section.wrapper section.left div.logo h2.img {}
+
+header section.wrapper section.left div.logo h2.img a {}
+header section.wrapper section.left div.logo h2.img a img {
+    display: block;
+    height: 3vh;
+    margin-right: 6px;
+}
+header section.wrapper section.left div.logo h1 {}
+header section.wrapper section.left nav {
+    font-weight: 600;
+    margin-right: 42px;
+    font-size: 15px;
+}
+header section.wrapper section.left nav select,header section.wrapper section.left nav option{
+    font-weight: 600;
+    font-size: 15px;
+    border: none;
+}
+header section.wrapper section.left nav.cart {
+    display: flex;
+    align-items: center;
+}
+header section.wrapper section.left nav.cart h3 {
+    font-weight: 600;
+    margin-right: 42px;
+    font-size: 15px;
+}
+
+header section.wrapper section.left nav.cart h3.valuecount {
+    margin-left: -36px;
+    font-weight: 600;
+    margin-right: 42px;
+    font-size: 15px;
+}
+
+header section.wrapper section.right {}
+header section.wrapper section.right button.hireme {
+    border: none;
+    background: #078D84;
+    padding: 12px 24px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 6px;
+
+}
+section.mainsection {
+    background: #F6F8FF;
+    height: calc(100vh - 12vh);
+    position: relative;
+}
+
+section.mainsection section.wrapper {}
+section.mainsection section.wrapper h4 {
+    padding-top: 24vh;
+    font-weight: 600;
+}
+section.mainsection section.wrapper h3 {
+    font-family: 'Inter medium';
+    font-size: 54px;
+    max-width: 56%;
+    margin: 14px 0px;
+    line-height: 1.3em;
+    position: relative;
+    z-index: 2;
+}
+section.mainsection section.wrapper h5 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 4vh;
+}
+section.mainsection section.wrapper div.mainsectionbtns {}
+section.mainsection section.wrapper div.mainsectionbtns button.one.hireme {
+    border: none;
+    background: #078D84;
+    padding: 12px 24px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 6px;
+    margin-right: 17px;
+}
+section.mainsection section.wrapper div.mainsectionbtns button.two {
+    border: 2px solid #078c83;
+    color: #078D84;
+    padding: 12px 24px;
+    font-weight: 600;
+    background: #fff;
+    border-radius: 6px;
+    margin-right: 17px;
+    font-weight: 700;
+    font-family: 'Inter Light';
+}
+section.mainsection section.wrapper .mainimg {
+    position: absolute;
+    top: 18vh;
+    right: 4vw;
+}
+section.mainsection section.wrapper .mainimg img {
+    display: block;
+    height: 52vh;
+}
+section.companies {
+    background: #31315b;
+    height: 15vh;
+}
+section.companies section.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 0px;
+}
+section.companies section.wrapper section.left {}
+section.companies section.wrapper section.left h3 {
+    color: #fff;
+    max-width: 100%;
+}
+section.companies section.wrapper section.right {}
+section.companies section.wrapper section.right ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+section.companies section.wrapper section.right ul li {
+    margin-right: 1.6vw;
+}
+section.companies section.wrapper section.right ul li:nth-child(1) a img {
+    display: block;
+    height: 9vh;
+}
+section.companies section.wrapper section.right ul li:nth-child(2) a img {
+    display: block;
+    height: 9vh;
+}
+section.companies section.wrapper section.right ul li:nth-child(5) a img {
+    height: 3vh;
+}
+
+section.companies section.wrapper section.right ul li:last-child {
+    margin-right: 0vw;
+}
+section.companies section.wrapper section.right ul li a {}
+section.companies section.wrapper section.right ul li a img {
+    display: block;
+    height: 5vh;
+}
+section.services {
+    background: #f5f7ff;
+}
+section.services section.wrapper {}
+section.services section.wrapper section.top {
+    padding-top: 9vh;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6vh;
+}
+section.services section.wrapper section.top section.left {}
+section.services section.wrapper section.top section.left h5 {
+    font-size: 15px;
+    font-weight: 600;
+}
+section.services section.wrapper section.top section.left h3 {
+    font-size: 34px;
+    margin-top: 6px;
+    font-family: 'Inter medium';
+    color: #1c1c57;
+    max-width: 75%;
+    line-height: 1.4em;
+}
+section.services section.wrapper section.top section.right {
+    width: 60%;
+}
+section.services section.wrapper section.top section.right h6 {
+    font-size: 15px;
+    line-height: 1.3em;
+    font-weight: 600;
+}
+section.services section.wrapper section.middle {
+    margin-bottom: 7vh;
+}
+section.services section.wrapper section.middle ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+section.services section.wrapper section.middle ul li {
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    padding: 16px;
+    border-radius: 8px;
+    width: 23.33%;
+}
+section.services section.wrapper section.middle ul li section.liwrap {}
+
+section.services section.wrapper section.middle ul li section.liwrap div.img {
+    
+}
+section.services section.wrapper section.middle ul li section.liwrap div.img img {
+    display: block;
+    height: 9vh;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    padding: 12px;
+    border-radius: 6px;
+    margin-bottom: 12px;
+}
+section.services section.wrapper section.middle ul li section.liwrap div.img h2 {
+    font-family: 'Inter medium';
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+section.services section.wrapper section.middle ul li section.liwrap div.img h4 {
+    font-size: 14px;
+    line-height: 1.4em;
+}
+section.services section.wrapper section.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section.services section.wrapper section.bottom button.one {
+    border: none;
+    background: #078D84;
+    padding: 12px 24px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 6px;
+    margin-right: 30px;
+}
+section.services section.wrapper section.bottom button.two {
+    border: 2px solid #078c83;
+    color: #078D84;
+    padding: 11px 18px;
+    font-weight: 600;
+    background: transparent;
+    border-radius: 6px;
+    margin-right: 17px;
+    font-weight: 700;
+    font-family: 'Inter Light';
+}
+section.servicesbottomimage {}
+
+section.servicesbottomimage img {
+    display: block;
+    width: 100%;
+    margin-top: -0.5px;
+}
+
+section.aboutsection {}
+section.aboutsection section.wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 9vh 0px;
+}
+section.aboutsection section.wrapper section.left {
+    margin-right: 9vw;
+}
+section.aboutsection section.wrapper section.left div.imageare {
+    position: relative;
+}
+section.aboutsection section.wrapper section.left div.imageare img.img-one {
+    border-radius: 28px;
+    z-index: 10;
+    position: relative;
+}
+section.aboutsection section.wrapper section.left div.imageare img.img-two {
+    position: absolute;
+    left: -50px;
+    bottom: -6vh;
+    height: 18vh;
+}
+section.aboutsection section.wrapper section.left div.imageare img.img-three {
+    position: absolute;
+    right: -54px;
+    bottom: 49vh;
+    height: 18vh;
+}
+section.aboutsection section.wrapper section.right {}
+section.aboutsection section.wrapper section.right h5 {
+    margin-bottom: 1vh;
+    font-size: 14px;
+    font-weight: 700;
+}
+section.aboutsection section.wrapper section.right h3 {
+    font-family: 'Inter medium';
+    font-size: 42px;
+    max-width: 84%;
+    line-height: 1.2em;
+    margin-bottom: 10px;
+    color: #1c1c57;
+}
+section.aboutsection section.wrapper section.right h6 {
+    color: #1c1c57;
+    font-size: 14px;
+    line-height: 1.2em;
+    margin-bottom: 20px;
+    font-family: 'Inter Light';
+}
+section.aboutsection section.wrapper section.right ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 64%;
+}
+section.aboutsection section.wrapper section.right ul li {
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    padding: 12px;
+    border-radius: 6px;
+    width: 10vw;
+}
+section.aboutsection section.wrapper section.right ul li h2 {
+    font-family: 'Inter SemiBold';
+    font-size: 36px;
+    color: #1c1c57;
+}
+section.aboutsection section.wrapper section.right ul li h4 {
+    font-size: 13px;
+    margin-top: 6px;
+}
+section.aboutsection section.wrapper section.right button.aboutbtn {
+    border: none;
+    background: #078D84;
+    padding: 12px 24px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 6px;
+    margin-top: 48px;
+}
+
+section.experiencetopimage {}
+section.experiencetopimage img {
+    display: block;
+    width: 100%;
+    margin-top: -8vh;
+}
+section.experience {
+    background: #f5f7ff;
+    margin-top: -2px;
+    padding-top: 6vh;
+    position: relative;
+}
+section.experience section.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+section.experience section.wrapper section.left {
+    width: 60%;
+}
+section.experience section.wrapper section.left h6 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+section.experience section.wrapper section.left h3 {
+    font-family: 'Inter Bold';
+    font-size: 52px;
+    color: #1c1c57;
+    max-width: 100%;
+    line-height: 1.3em;
+}
+section.experience section.wrapper section.left h5 {
+    max-width: 77%;
+    font-size: 14px;
+    margin-bottom: 22px;
+    line-height: 1.4em;
+}
+section.experience section.wrapper section.left ul {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+section.experience section.wrapper section.left ul li {
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    padding: 12px;
+    border-radius: 8px;
+    width: 41%;
+    margin-bottom: 24px;
+    margin-right: 2vw;
+}
+section.experience section.wrapper section.left ul li div.top {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    height: 6vh;
+}
+section.experience section.wrapper section.left ul li div.top img {
+    display: block;
+    height: 102px;
+}
+section.experience section.wrapper section.left ul li:nth-child(2) div.top img {
+    display: block;
+    height: 42px;
+}
+section.experience section.wrapper section.left ul li:nth-child(3) div.top img {
+    display: block;
+    height: 52px;
+}
+section.experience section.wrapper section.left ul li:nth-child(4) div.top img {
+    display: block;
+    height: 42px;
+}
+section.experience section.wrapper section.left ul li div.top h4 {
+    font-family: 'Inter Bold';
+    font-size: 14px;
+    color: #1c1c57;
+    max-width: 100%;
+    margin-left: 14px;
+}
+section.experience section.wrapper section.left ul li h3 {
+    line-height: normal;
+    font-size: 16px;
+    margin: 9px 0px;
+}
+section.experience section.wrapper section.left ul li h5.timeperiod {
+    margin-bottom: 7px;
+    font-family: 'Inter Light';
+}
+section.experience section.wrapper section.left ul li h6.describe {}
+section.experience section.wrapper section.right {
+    margin-left: 5vw;
+    width: 40%;
+    position: relative;
+}
+section.experience section.wrapper section.right img.ex-one {
+    position: relative;
+    right: -8vw;
+    height: 64vh;
+    z-index: 7;
+}
+section.experience section.wrapper section.right img.ex-two {
+    display: block;
+    height: 13vh;
+    position: absolute;
+    top: -46px;
+    right: -3vw;
+    z-index: 5;
+    transform: rotate(18deg);
+}
+section.experience section.wrapper section.right img.ex-three {
+    display: block;
+    height: 13vh;
+    position: absolute;
+    bottom: 90px;
+    right: 20vw;
+    z-index: 5;
+    transform: rotate(206deg);
+}
+section.experiencebottomimage {}
+section.experiencebottomimage img {
+    display: block;
+    width: 100%;
+    margin-top: 0vh;
+}
+section.projects {}
+
+section.projects section.wrapper {}
+section.projects section.wrapper section.top {
+    padding-top: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+section.projects section.wrapper section.top h6 {
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+section.projects section.wrapper section.top h2 {
+    font-family: 'Inter Bold';
+    font-size: 46px;
+    color: #1c1c57;
+    max-width: 100%;
+}
+section.projects section.wrapper section.top h4 {
+    margin-top: 1vh;
+    font-size: 16px;
+    color: #1c1c57;
+}
+section.projects section.wrapper section.bottom {
+    margin-top: 8vh;
+}
+section.projects section.wrapper section.bottom ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+section.projects section.wrapper section.bottom ul li {
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    border-radius: 8px;
+    height: 38vh;
+    width: 23.33%;
+    margin-bottom: 4vh;
+    margin-right: 23px;
+    position: relative;
+}
+section.projects section.wrapper section.bottom ul li:last-child{
+    margin-right: 0;
+}
+section.projects section.wrapper section.bottom ul li div.img {}
+
+section.projects section.wrapper section.bottom ul li div.img img {
+    height: 18vh;
+    width: 100%;
+    border-radius: 8px 8px 0px 0px;
+}
+section.projects section.wrapper section.bottom ul li h3 {
+    padding: 0px 16px;
+    font-family: 'Inter Bold';
+    font-size: 15px;
+    color: #1c1c57;
+    max-width: 100%;
+    margin: 8px 0px 6px 0px;
+}
+section.projects section.wrapper section.bottom ul li h6 {
+    padding: 0px 16px;
+    line-height: 1.3em;
+    font-family: 'Inter Light';
+    font-size: 11px;
+    font-weight: 600;
+}
+
+section.projects section.wrapper section.bottom ul li span {
+
+}
+
+section.projects section.wrapper section.bottom ul li span h5 {}
+section.projects section.wrapper section.bottom ul li a.viewproject {
+    display: flex;
+    align-items: center;
+    padding: 0px 16px;
+    margin-top: 6px;
+    position: absolute;
+    bottom: 5px;
+}
+section.projects section.wrapper section.bottom ul li a.viewproject h4 {
+    color: #255BF9;
+    font-size: 14px;
+}
+section.projects section.wrapper section.bottom ul li a.viewproject img {
+    display: block;
+    height: 28px;
+}
+div.spanmain {
+    display: flex;
+    align-items: center;
+    padding: 0px 16px;
+}
+div.spanmain span {}
+div.spanmain span h5 {
+    background: #F4F4F4;
+    padding: 7px 16px;
+    margin-right: 6px;
+    font-size: 12px;
+    border-radius: 6px;
+    font-family: 'Inter Bold';
+    color: #1c1c57;
+    margin-top: 10px;
+}
+section.projects section.wrapper section.bottom button.fullportfolio {
+    border: none;
+    background: #078D84;
+    padding: 12px 24px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 6px;
+    margin-right: 30px;
+    display: block;
+    margin: 0 auto;
+}
+section.reviewtopimage {}
+
+section.reviewtopimage img {
+    display: block;
+    width: 100%;
+}
+section.reviewbottomimage {}
+
+section.reviewbottomimage img {
+    display: block;
+    width: 100%;
+    margin-top: -0.1%;
+}
+section.reviews {
+    background: #255bfa;
+    margin-top: -0.32px;
+}
+
+
+
+
+section.reviews {}
+
+section.reviews section.wrapper {}
+
+section.reviews section.wrapper div.carousel-container {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    color: white;
+    overflow: hidden;
+}
+
+section.reviews section.wrapper div.carousel-container button.arrow.prev {
+    left: 20px;
+}
+section.reviews section.wrapper div.carousel-container button.arrow.prev img {
+    display: block;
+    height: 4vh;
+}
+section.reviews section.wrapper div.carousel-container button.arrow:hover{
+    background-color: rgba(255, 255, 255, 0.4);
+}
+section.reviews section.wrapper div.carousel-container button.arrow.prev i.fas.fa-chevron-left {}
+
+section.reviews section.wrapper div.carousel-container div.review {
+    position: relative;
+    width: 69vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    background: transparent;
+    color: #fff;
+}
+
+section.reviews section.wrapper div.carousel-container div.review div.stars {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+section.reviews section.wrapper div.carousel-container div.review p.review-text {
+    max-width: 600px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    color: #fff;
+}
+
+section.reviews section.wrapper div.carousel-container div.review div.reviewer-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #fff;
+}
+
+section.reviews section.wrapper div.carousel-container div.review div.reviewer-info h3.reviewer-name {
+    margin: 0;
+    font-weight: bold;
+    color: #fff;
+}
+section.reviews section.wrapper div.carousel-container div.review div.reviewer-info h3.reviewer-logo {
+    height: 30px;
+    transition: transform 0.3s ease;
+    color: #fff;
+}
+section.reviews section.wrapper div.carousel-container div.review div.reviewer-info p.reviewer-title {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #fff;
+}
+
+section.reviews section.wrapper div.carousel-container div.review div.reviewer-info img.reviewer-logo:hover {
+    transform: scale(1.1);
+}
+section.reviews section.wrapper div.carousel-container button.arrow{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section.reviews section.wrapper div.carousel-container button.arrow.next {
+    right: 20px;
+}
+section.reviews section.wrapper div.carousel-container button.arrow.next img {
+    height: 4vh;
+    display: block;
+}
+section.reviews section.wrapper div.carousel-container button.arrow.next i.fas.fa-chevron-right {}
+
+section.reviews section.wrapper div.carousel-container div.dots {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+}
+
+section.reviews section.wrapper div.carousel-container div.dots span.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+section.reviews section.wrapper div.carousel-container div.dots span.dot.active {
+    background-color: white;
+}
+
+
+section.faq {
+    padding-top: 7vh;
+}
+section.faq section.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+section.faq section.wrapper h2 {
+    font-family: 'Inter SemiBold';
+    font-size: 33px;
+    margin-bottom: 6px;
+    color: #1c1c57;
+}
+
+section.faq section.wrapper h4 {
+    color: #1c1c57;
+}
+section.faq section.wrapper ul {
+    margin: 56px 0px;
+    width: 54%;
+}
+section.faq section.wrapper ul li {
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 11px 29px;
+    border-radius: 8px;
+    width: 100%;
+    margin-bottom: 16px;
+}
+section.faq section.wrapper ul li h3 {
+    font-family: 'Inter SemiBold';
+    font-size: 14px;
+    color: #1c1c57;
+}
+
+section.faq section.wrapper ul li span.img {}
+section.faq section.wrapper ul li span.img img {
+    display: block;
+    height: 3vh;
+}
+section.faq section.wrapper section.bottom {
+    width: 46%;
+    margin-bottom: 56px;
+}
+
+section.faq section.wrapper section.bottom section.wrapper {}
+
+section.faq section.wrapper section.bottom section.wrapper section.contactspace {
+    background: #f0f7f7;
+    padding: 24px;
+    width: 100%;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+section.faq section.wrapper section.bottom section.wrapper section.contactspace h2 {
+    font-family: 'Inter Bold';
+    font-size: 32px;
+    color: #1c1c57;
+}
+section.faq section.wrapper section.bottom section.wrapper section.contactspace h4 {
+    margin-bottom: 24px;
+}
+section.faq section.wrapper section.bottom section.wrapper section.contactspace button.contactme {
+    border: none;
+    background: #078D84;
+    padding: 12px 24px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 6px;
+    margin-right: 30px;
+}
+section.business {
+    background: #1C1C57;
+    height: 31vh;
+    margin-bottom: 56px;
+}
+section.business section.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 68px 0px;
+}
+section.business section.wrapper h2 {
+    color: #fff;
+    font-family: 'Inter SemiBold';
+    font-size: 32px;
+    margin-bottom: 6px;
+}
+
+section.business section.wrapper h4 {
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Inter Light';
+    margin-bottom: 36px;
+}
+
+section.business section.wrapper div.businessbtns {}
+section.business section.wrapper div.businessbtns button.one {
+    border: none;
+    background: #fff;
+    padding: 12px 24px;
+    font-weight: 600;
+    color: #1c1c57;
+    border-radius: 6px;
+    margin-right: 30px;
+}
+section.business section.wrapper div.businessbtns button.two {
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 11px 29px;
+    font-weight: 600;
+    background: transparent;
+    border-radius: 6px;
+    margin-right: 17px;
+    font-weight: 700;
+    font-family: 'Inter Light';
+}
+
+section.blogs {}
+
+section.blogs section.wrapper {}
+
+section.blogs section.wrapper h5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1C1C57;
+}
+
+section.blogs section.wrapper h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter SemiBold';
+    margin: 8px 0px;
+    font-size: 36px;
+    color: #1C1C57;
+}
+section.blogs section.wrapper h6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1C1C57;
+    font-size: 14px;
+    margin-bottom: 48px;
+}
+section.blogs section.wrapper ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+section.blogs section.wrapper ul li {
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    padding: 16px;
+    border-radius: 8px;
+    width: 48%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+section.blogs section.wrapper ul li div.left {}
+section.blogs section.wrapper ul li div.left img {
+    display: block;
+    height: 20vh;
+}
+section.blogs section.wrapper ul li div.right {
+    margin-left: 32px;
+}
+section.blogs section.wrapper ul li div.right span.top {}
+section.blogs section.wrapper ul li div.right span.top ul {
+    justify-content: flex-start;
+}
+section.blogs section.wrapper ul li div.right span.top ul li.category {
+    box-shadow: none;
+    width: auto;
+    padding: 7px 12px;
+    background: #f5f5f5;
+    border-radius: 5px;
+    font-family: 'Inter Bold';
+    font-size: 13px;
+    color: #1c1c57;
+} 
+section.blogs section.wrapper ul li div.right span.top ul li.read {
+    box-shadow: none;
+    width: auto;
+    font-family: 'Inter Bold';
+    font-size: 13px;
+    color: #1c1c57;
+}
+section.blogs section.wrapper ul li div.right h3 {
+    font-size: 20px;
+    display: block;
+    margin: 6px 0px;
+    font-family: 'Inter Bold';
+}
+section.blogs section.wrapper ul li div.right h5 {
+    margin-bottom: 12px;
+}
+section.blogs section.wrapper ul li div.right a.readmore {
+    color: #255BF9;
+    font-family: 'Inter SemiBold';
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+}
+section.blogs section.wrapper ul li div.right a.readmore img {
+    display: block;
+    height: 3vh;
+}
+section.blogs section.wrapper section.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section.blogs section.wrapper section.bottom button.articles {
+    border: none;
+    background: #255BF9;
+    padding: 12px 24px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 6px;
+    margin-right: 30px;
+}
+
+section.footerupimage {}
+
+section.footerupimage img {
+    display: block;
+    width: 100%;
+}
+footer {
+    background: #1c1c57;
+    margin-top: -1.24px;
+}
+
+footer section.wrapper {
+    padding-top: 6vh;
+}
+footer section.wrapper section.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer section.wrapper section.top section.left {}
+footer section.wrapper section.top section.left div.footerlogo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 18%;
+    margin-bottom: 1vh;
+}
+footer section.wrapper section.top section.left div.footerlogo h2.img {
+    
+}
+
+footer section.wrapper section.top section.left div.footerlogo h2.img a {}
+footer section.wrapper section.top section.left div.footerlogo h2.img a img {
+    display: block;
+    height: 3.5vh;
+}
+
+footer section.wrapper section.top section.left div.footerlogo h1 {
+    color: #fff;
+}
+
+footer section.wrapper section.top section.left h3 {
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 1.6vh;
+}
+
+footer section.wrapper section.top section.left div.emailarea {}
+footer section.wrapper section.top section.left div.emailarea input {
+    border: 2px solid #ffd;
+    background: none;
+    padding: 12px 19px;
+    color: #fff;
+    border-radius: 6px;
+    width: 18vw;
+    margin-right: 1vw;
+    font-weight: 600;
+}
+footer section.wrapper section.top section.left div.emailarea input::placeholder{
+    color: #fff;
+    font-weight: 600;
+}
+footer section.wrapper section.top section.left div.emailarea button {
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 11px 23px;
+    font-weight: 600;
+    background: transparent;
+    border-radius: 6px;
+    margin-right: 17px;
+    font-weight: 700;
+    font-family: 'Inter Light';
+}
+footer section.wrapper section.top section.left h5 {
+    color: #fff;
+    font-size: 11px;
+    margin: 8px 0px;
+}
+footer section.wrapper section.top section.right {
+    display: flex;
+    justify-content: space-between;
+    width: 52%;
+}
+
+footer section.wrapper section.top section.right ul.one {}
+
+footer section.wrapper section.top section.right ul.one li {
+    margin-bottom: 8px;
+}
+
+footer section.wrapper section.top section.right ul.one li a {
+    font-size: 14px;
+}
+
+footer section.wrapper section.top section.right ul.one li a h3 {
+    color: #fff;
+    margin-bottom: 2vh;
+    font-size: 16px;
+}
+
+footer section.wrapper section.top section.right ul.one li a h4 {
+    color: #fff;
+}
+
+footer section.wrapper section.top section.right ul.two {}
+
+footer section.wrapper section.top section.right ul.two li {
+    margin-bottom: 8px;
+}
+
+footer section.wrapper section.top section.right ul.two li a {
+    font-size: 14px;
+}
+
+footer section.wrapper section.top section.right ul.two li a h3 {
+    color: #fff;
+    margin-bottom: 2vh;
+    font-size: 16px;
+}
+
+footer section.wrapper section.top section.right ul.two li a h4 {
+    color: #fff;
+}
+
+footer section.wrapper section.top section.right ul.three {}
+
+footer section.wrapper section.top section.right ul.three li {
+    margin-bottom: 8px;
+}
+
+footer section.wrapper section.top section.right ul.three li a {
+    font-size: 14px;
+}
+
+footer section.wrapper section.top section.right ul.three li a h3 {
+    color: #fff;
+    margin-bottom: 2vh;
+    font-size: 16px;
+}
+
+footer section.wrapper section.top section.right ul.three li a h4 {
+    color: #fff;
+}
+
+footer section.wrapper section.top section.right ul.four {}
+
+footer section.wrapper section.top section.right ul.four li {
+    margin-bottom: 8px;
+}
+footer section.wrapper section.top section.right ul.four li a {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+footer section.wrapper section.top section.right ul.four li a h3{
+    color: #fff;
+    margin-bottom: 2vh;
+    font-size: 16px;
+}
+footer section.wrapper section.top section.right ul.four li a img {
+    display: block;
+    height: 3.5vh;
+    margin-right: 12px;
+}
+footer section.wrapper section.top section.right ul.four li a h4 {
+    color: #fff;
+}
+footer section.wrapper hr.whiteline {
+    margin: 36px 0px 16px 0px;
+}
+footer section.wrapper section.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 3vh;
+}
+
+footer section.wrapper section.bottom section.left {}
+footer section.wrapper section.bottom section.left h3 {
+    color: #fff;
+    font-size: 13px;
+}
+footer section.wrapper section.bottom section.right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 26%;
+}
+footer section.wrapper section.bottom section.right a.privacy.ptc {
+    color: #fff;
+    text-decoration: underline;
+    font-size: 13px;
+    font-family: 'Inter SemiBold';
+}
+
+footer section.wrapper section.bottom section.right a.Terms.ptc {
+    color: #fff;
+    text-decoration: underline;
+    font-size: 13px;
+    font-family: 'Inter SemiBold';
+}
+
+footer section.wrapper section.bottom section.right a.Cookies.ptc {
+    color: #fff;
+    text-decoration: underline;
+    font-size: 13px;
+    font-family: 'Inter SemiBold';
+}
+
+
+/* animations*/
+
+
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #333 }
+}
+
+.Showcase {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 1.2s ease-out, transform 1.2s ease-out;
+}
+.Showcase.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+section.services section.wrapper section.middle ul li {
+    opacity: 0;
+    transform: translateX(-30px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+section.services section.wrapper section.middle ul li.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* animations*/
