@@ -1,6 +1,8 @@
 Capsfolio Portfolio Website
 Project Description
 This is a professional portfolio website for Capsfolio, designed to showcase creative services, projects, and expertise. The website provides a clean, modern interface for potential clients to learn about the services offered, view previous work, and get in touch.
+
+
 File Structure
 
 portfolio_final/
@@ -13,6 +15,8 @@ portfolio_final/
 ├── js/
 │   └── script.js        # JavaScript functionality
 └── home.html            # Main HTML file
+
+
 Features
 Responsive Design: Optimized for viewing on various devices
 Service Showcase: Displays UI/UX design, Webflow development, marketing, and branding services
@@ -21,9 +25,10 @@ Client Testimonials: Includes a review carousel
 FAQ Section: Answers common questions about services
 Blog Section: Provides industry insights and design trends
 Contact Form: Allows visitors to subscribe to newsletter
+
 Usage
 Clone the repository
-Open home.html in a web browser
+Open index.html in a web browser
 Navigate through the different sections to explore the portfolio
 Customization
 To customize this template for your own portfolio:
@@ -36,5 +41,3 @@ HTML5
 CSS3
 JavaScript
 Font Awesome (icons)
-# Edison-Resume
-# Edison_Resume
