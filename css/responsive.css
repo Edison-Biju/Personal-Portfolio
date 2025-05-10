@@ -1,3 +1,271 @@
 @media all and (max-width:1280px){
+
+}
+
+
+@media all and (max-width:1024px){
+    
+}
+
+
+@media all and (max-width:1200px){
+
+}
+
+
+@media all and (max-width:900px){
+    header {
+        padding: 12px 0px;
+    }
+    section.mainsection section.wrapper .mainimg img {
+        display: block;
+        height: 14vh;
+    }
+    header section.wrapper section.left div.logo h2.img a img {
+        display: block;
+        height: 2vh;
+        margin-right: 6px;
+    }
+    header section.wrapper section.left div.logo h1 {
+        font-size: 11px;
+    }
+    header section.wrapper section.left nav {
+        font-weight: 600;
+        margin-right: 6px;
+        font-size: 9px;
+    }
+    header section.wrapper section.left div.logo {
+        display: flex;
+        align-items: center;
+        margin-right: 2vh;
+    }
+    header section.wrapper section.left nav select, header section.wrapper section.left nav option {
+        font-weight: 600;
+        font-size: 9px;
+        border: none;
+    }
+    header section.wrapper section.right button.hireme {
+        border: none;
+        background: #078D84;
+        padding: 5px 16px;
+        font-weight: 600;
+        color: #fff;
+        border-radius: 6px;
+        font-size: 9px;
+        margin-left: 5vw;
+    }
+    header section.wrapper section.left nav.cart{
+        display: flex;
+        align-items: center;
+        display: none;
+    }
+    section.mainsection section.wrapper h3 {
+        font-family: 'Inter medium';
+        font-size: 20px;
+        max-width: 83%;
+        margin: 14px 0px;
+        line-height: 1.3em;
+        position: relative;
+        z-index: 2;
+    }
+    section.mainsection section.wrapper h4 {
+        padding-top: 6vh;
+        font-weight: 600;
+        font-size: 12px;
+    }
+    section.mainsection section.wrapper h5 {
+        font-size: 7px;
+        font-weight: 600;
+        margin-bottom: 2vh;
+    }
+    section.mainsection section.wrapper .mainimg {
+        position: absolute;
+        top: 3vh;
+        right: 1vw;
+    }
+    section.mainsection section.wrapper div.mainsectionbtns button.one.hireme {
+        border: none;
+        background: #078D84;
+        padding: 6px 16px;
+        font-weight: 600;
+        color: #fff;
+        border-radius: 6px;
+        margin-right: 17px;
+        font-size: 10px;
+    }
+    section.mainsection section.wrapper div.mainsectionbtns button.two {
+        border: 2px solid #078c83;
+        color: #078D84;
+        padding: 5px 16px;
+        font-weight: 600;
+        background: #fff;
+        border-radius: 6px;
+        margin-right: 17px;
+        font-weight: 700;
+        font-family: 'Inter Light';
+        font-size: 10px;
+    }
+    section.mainsection {
+        background: #F6F8FF;
+        height: auto;
+        position: relative;
+    }
+    section.companies {
+        background: #31315b;
+        height: 5vh;
+        margin-top: 2vh;
+    }
+    section.companies section.wrapper section.right ul li a img {
+        display: block;
+        height: 2vh;
+    }
+    section.companies section.wrapper section.right ul li:nth-child(2) a img {
+        display: block;
+        height: 4vh;
+    }
+    section.companies section.wrapper section.right ul li:nth-child(1) a img {
+        display: block;
+        height: 4vh;
+    }
+    section.companies section.wrapper section.right ul li:nth-child(5) a img {
+        height: 1vh !important;
+    }
+    header section.wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    section.companies section.wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 10px 0px;
+    }
+    section.companies section.wrapper section.right ul li a img{
+        display: block;
+        height: 2vh !important;
+    }
+    section.companies section.wrapper section.left h3 {
+        color: #fff;
+        max-width: 100%;
+        font-size: 9px;
+    }
+    section.services section.wrapper section.top {
+        padding-top: 2vh;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 2vh;
+    } 
+    section.services section.wrapper section.top section.left h3 {
+        font-size: 15px;
+        margin-top: 6px;
+        font-family: 'Inter medium';
+        color: #1c1c57;
+        max-width: 80%;
+        line-height: 1.4em;
+    }
+    section.services section.wrapper section.top section.left h5 {
+        font-size: 12px;
+        font-weight: 600;
+    }  
+    section.services section.wrapper section.top section.right h6 {
+        font-size: 6px;
+        line-height: 1.3em;
+        font-weight: 600;
+        display: none;
+    }
+    section.services section.wrapper section.middle ul li {
+        box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+        padding: 16px;
+        border-radius: 8px;
+        width: 48.33%;
+        margin-bottom: 20px;
+    }
+    section.services section.wrapper section.middle ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    section.services section.wrapper section.middle ul li section.liwrap div.img img {
+        display: block;
+        height: 6vh;
+        box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+        padding: 12px;
+        border-radius: 6px;
+        margin-bottom: 12px;
+    }
+    section.services section.wrapper section.middle ul li section.liwrap div.img h2 {
+        font-family: 'Inter medium';
+        font-size: 15px;
+        margin-bottom: 16px;
+    }
+    section.services section.wrapper section.middle ul li section.liwrap div.img h4 {
+        font-size: 12px;
+        line-height: 1.4em;
+    }
+    section.services section.wrapper section.bottom button.one {
+        border: none;
+        background: #078D84;
+        padding: 8px 16px;
+        font-weight: 600;
+        color: #fff;
+        border-radius: 6px;
+        margin-right: 30px;
+        font-size: 13px;
+    }  
+    section.services section.wrapper section.bottom button.two{
+    border: 2px solid #078c83;
+    color: #078D84;
+    padding: 8px 14px;
+    font-weight: 600;
+    background: transparent;
+    border-radius: 6px;
+    margin-right: 17px;
+    font-weight: 700;
+    font-family: 'Inter Light';
+    font-size: 12px;
+}
+section.services section.wrapper section.middle {
+    margin-bottom: 0vh;
+}
+section.aboutsection section.wrapper section.left div.imageare img.img-one {
+    border-radius: 10px;
+    z-index: 10;
+    position: relative;
+    display: block;
+    height: 17vh;
+}
+section.aboutsection section.wrapper section.left div.imageare img.img-two {
+    position: absolute;
+    left: -16px;
+    bottom: -2vh;
+    height: 6vh;
+}
+section.aboutsection section.wrapper section.left div.imageare img.img-three {
+    position: absolute;
+    left: 113px;
+    bottom: 13vh;
+    height: 6vh;
+}
+
+
+
+
+
+}
+
+
+@media all and (max-width:768px){
+    
+}
+
+
+@media all and (max-width:480px){
+    
+}
+
+
+@media all and (max-width:320px){
     
 }
