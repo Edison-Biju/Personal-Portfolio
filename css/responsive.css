@@ -269,3 +269,54 @@ section.aboutsection section.wrapper section.left div.imageare img.img-three {
 @media all and (max-width:320px){
     
 }
+@media all and (max-width:280px){
+    header section.wrapper section.left nav:nth-child(5) {
+        display: none;
+    }
+    header section.wrapper section.left div.logo h1 {
+        display: none;
+    }
+    header section.wrapper section.right button.hireme {
+        border: none;
+        background: #078D84;
+        padding: 5px 13px;
+        font-weight: 600;
+        color: #fff;
+        border-radius: 4px;
+        font-size: 7px;
+        margin-left: 6vw;
+    }
+    header section.wrapper section.left div.logo {
+        display: flex;
+        align-items: center;
+        margin-right: 4vh;
+    }
+    section.mainsection section.wrapper h4 {
+        padding-top: 6vh;
+        font-weight: 600;
+        font-size: 10px;
+    }
+    section.mainsection section.wrapper .mainimg img {
+        display: block;
+        height: 9vh;
+    }
+    section.mainsection section.wrapper h3 {
+        font-family: 'Inter medium';
+        font-size: 15px;
+        max-width: 83%;
+        margin: 8px 0px;
+        line-height: 1.3em;
+        position: relative;
+        z-index: 2;
+    }
+    section.mainsection section.wrapper div.mainsectionbtns button.one.hireme {
+        border: none;
+        background: #078D84;
+        padding: 6px 12px;
+        font-weight: 600;
+        color: #fff;
+        border-radius: 6px;
+        margin-right: 17px;
+        font-size: 9px;
+    }
+}
