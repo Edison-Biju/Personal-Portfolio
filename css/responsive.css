@@ -600,6 +600,58 @@ section.reviews section.wrapper div.carousel-container div.review div.reviewer-i
     font-size: 9px;
     color: #fff;
 }
+section.faq {
+    padding-top: 0vh;
+}
+section.faq section.wrapper h2 {
+    font-family: 'Inter SemiBold';
+    font-size: 24px;
+    margin-bottom: 6px;
+    color: #1c1c57;
+}
+section.faq section.wrapper h4 {
+    color: #1c1c57;
+    font-size: 10px;
+}
+section.faq section.wrapper ul {
+    margin: 16px 0px;
+    width: 93%;
+}
+section.faq section.wrapper ul li {
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+    display: flex
+;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 29px;
+    border-radius: 8px;
+    width: 100%;
+    margin-bottom: 16px;
+}
+section.faq section.wrapper ul li h3 {
+    font-family: 'Inter SemiBold';
+    font-size: 11px;
+    color: #1c1c57;
+}
+section.faq section.wrapper section.bottom {
+    width: 90%;
+    margin-bottom: 56px;
+}
+section.faq section.wrapper section.bottom section.wrapper section.contactspace h2 {
+    font-family: 'Inter Bold';
+    font-size: 24px;
+    color: #1c1c57;
+}
+section.faq section.wrapper section.bottom section.wrapper section.contactspace button.contactme {
+    border: none;
+    background: #078D84;
+    padding: 8px 21px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 6px;
+    margin-right: 0px;
+    font-size: 11px;
+}
 
 
 
