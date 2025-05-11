@@ -862,6 +862,19 @@ section.mainsection section.wrapper div.pimg img
 section.mainsection section.wrapper div.mainsectionbtns {
     padding-bottom: 2vh;
 }
+.frem p {
+    position: absolute;
+    top: 3rem;
+    font-size: 4rem
+;
+    color: #00000063;
+}
+.frem h2
+ {
+    position: absolute;
+    bottom: 8rem;
+    font-size: 19px;
+}
 
 
 
