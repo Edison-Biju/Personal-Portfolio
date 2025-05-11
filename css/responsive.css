@@ -30,6 +30,9 @@
 
 
 @media all and (max-width:480px){
+    body{
+            overflow: hidden;
+    }
     header {
         padding: 12px 0px;
     }
