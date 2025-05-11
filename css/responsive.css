@@ -847,6 +847,17 @@ footer section.wrapper section.bottom section.left h3 {
     color: #fff;
     font-size: 5px;
 }
+section.mainsection section.wrapper div.pimg {
+    position: absolute;
+    right: -3vw;
+    top: -7vh;
+    z-index: 99;
+}
+section.mainsection section.wrapper div.pimg img
+ {
+    display: block;
+    height: 32vh;
+}
 
 
 
