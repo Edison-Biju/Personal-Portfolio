@@ -1,0 +1,69 @@
+@keyframes fadeInUp {
+    from {
+      transform: translateY(30px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  .visible {
+    animation: fadeInUp 0.6s ease-out forwards;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s ease;
+  }
+
+  /* Add this class when animation should play */
+  .visible.active {
+    animation-play-state: running;
+  }
+
+
+
+  @keyframes fadeFromLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-60px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .moveright {
+    animation: fadeFromLeft 1.5s ease-out forwards;
+    opacity: 0;
+    transform: translateX(-60px);
+  }
+  
+  /* Add this class when animation should play */
+  .moveright.active {
+    animation-play-state: running;
+  }
+
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .moveup {
+    animation: fadeInUp 2s ease-out forwards;
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  /* Add this class when animation should play */
+  .moveup.active {
+    animation-play-state: running;
+  }

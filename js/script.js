@@ -160,4 +160,34 @@
 
 
 
+        // // Disable right-click
+
+
+        // document.addEventListener('contextmenu', function(e) {
+        //     e.preventDefault();
+        // });
+
+        // // Disable keyboard shortcuts (e.g., Ctrl + S, Ctrl + P)
+        // document.addEventListener('keydown', function(e) {
+        //     if (
+        //         (e.ctrlKey && (e.key === 's' || e.key === 'p')) ||
+        //         (e.key === 'F12') ||
+        //         (e.key === 'Ins') ||
+        //         (e.key === 'Delete')
+        //     ) {
+        //         e.preventDefault();
+        //     }
+        // });
+
+        // // Disable text selection (optional)
+        // document.addEventListener('selectstart', function(e) {
+        //     e.preventDefault();
+        // });
+
+
+
+
+        
+
+
         
