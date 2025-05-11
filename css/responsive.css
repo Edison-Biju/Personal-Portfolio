@@ -129,7 +129,7 @@
         section.companies {
             background: #31315b;
             height: 5vh;
-            margin-top: 2vh;
+            margin-top: 0vh;
         }
         section.companies section.wrapper section.right ul li a img {
             display: block;
@@ -858,6 +858,10 @@ section.mainsection section.wrapper div.pimg img
     display: block;
     height: 32vh;
 }
+section.mainsection section.wrapper div.mainsectionbtns {
+    padding-bottom: 2vh;
+}
+
 
 
 
