@@ -196,76 +196,27 @@
                 return;
             }
             
-            // GitHub details - CORRECTED
-            const githubUsername = 'Mr-Captain-Max'; // Just the username, not URL
-            const repoName = 'Personal-Portfolio';   // Just the repo name, not URL
-            const filePath = 'emails.txt';           // Just the filename
-            // const githubToken = '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';   // Replace with your actual token
+            // Simple storage in localStorage (for demo purposes)
+            let subscribers = JSON.parse(localStorage.getItem('emailSubscribers') || []);
+            subscribers.push(email);
+            localStorage.setItem('emailSubscribers', JSON.stringify(subscribers));
             
-            // First, get the current content of the file - CORRECTED API ENDPOINT
-            fetch(`https://api.github.com/repos/${githubUsername}/${repoName}/contents/${filePath}`, {
-                headers: {
-                    'Authorization': `token ${githubToken}`,
-                    'Accept': 'application/vnd.github.v3+json'
-                }
-            })
-            .then(response => {
-                if (!response.ok) {
-                    // If file doesn't exist, we'll create it
-                    if (response.status === 404) {
-                        return Promise.resolve({ content: '' });
-                    }
-                    throw new Error('Network response was not ok');
-                }
-                return response.json();
-            })
-            .then(data => {
-                // Decode the existing content (if any)
-                let currentContent = '';
-                if (data.content) {
-                    currentContent = atob(data.content.replace(/\s/g, ''));
-                }
-                
-                // Add the new email
-                const updatedContent = currentContent + email + '\n';
-                
-                // Prepare the data for the update/create request
-                const updateData = {
-                    message: 'Add new email subscriber',
-                    content: btoa(updatedContent),
-                    sha: data.sha || undefined // Include sha only if updating existing file
-                };
-                
-                // Update or create the file - CORRECTED API ENDPOINT
-                return fetch(`https://api.github.com/repos/${githubUsername}/${repoName}/contents/${filePath}`, {
-                    method: 'PUT',
-                    headers: {
-                        'Authorization': `token ${githubToken}`,
-                        'Accept': 'application/vnd.github.v3+json',
-                        'Content-Type': 'application/json'
-                    },
-                    body: JSON.stringify(updateData)
-                });
-            })
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error('Failed to update file on GitHub');
-                }
-                return response.json();
-            })
-            .then(() => {
-                messageDiv.textContent = 'Thank you for subscribing!';
-                messageDiv.style.color = 'green';
-                document.getElementById('emailarea').value = '';
-            })
-            .catch(error => {
-                console.error('Error:', error);
-                messageDiv.textContent = 'An error occurred. Please try again later.';
-                messageDiv.style.color = 'red';
-            });
+            // You can periodically download this data manually
+            messageDiv.textContent = 'Thank you for subscribing!';
+            messageDiv.style.color = 'green';
+            document.getElementById('emailarea').value = '';
+            
+            // Optional: Create a download link for the emails
+            const blob = new Blob([subscribers.join('\n')], { type: 'text/plain' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'subscribers.txt';
+            a.style.display = 'none';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
         });
-
-
 
 
 
