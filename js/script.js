@@ -185,39 +185,18 @@
         // });
 
 
-        document.getElementById('subscribe').addEventListener('click', function() {
-            const email = document.getElementById('emailarea').value.trim();
-            const messageDiv = document.getElementById('message');
+        document.getElementById('subscribeForm').addEventListener('submit', function(e) {
+            e.preventDefault(); // Prevent the form from submitting (page reload)
             
-            // Basic email validation
-            if (!email || !email.includes('@') || !email.includes('.')) {
-                messageDiv.textContent = 'Please enter a valid email address';
-                messageDiv.style.color = 'red';
-                return;
+            // Get the email input element
+            const emailInput = document.getElementById('emailarea');
+            
+            // Check if the email is valid (browser validation already handled by `required` and `type="email"`)
+            if (emailInput.validity.valid) {
+                alert('You have successfully subscribed!');
+                emailInput.value = ''; // Reset the input field
             }
-            
-            // Simple storage in localStorage (for demo purposes)
-            let subscribers = JSON.parse(localStorage.getItem('emailSubscribers') || []);
-            subscribers.push(email);
-            localStorage.setItem('emailSubscribers', JSON.stringify(subscribers));
-            
-            // You can periodically download this data manually
-            messageDiv.textContent = 'Thank you for subscribing!';
-            messageDiv.style.color = 'green';
-            document.getElementById('emailarea').value = '';
-            
-            // Optional: Create a download link for the emails
-            const blob = new Blob([subscribers.join('\n')], { type: 'text/plain' });
-            const url = URL.createObjectURL(blob);
-            const a = document.createElement('a');
-            a.href = url;
-            a.download = 'subscribers.txt';
-            a.style.display = 'none';
-            document.body.appendChild(a);
-            a.click();
-            document.body.removeChild(a);
         });
-
 
 
          
