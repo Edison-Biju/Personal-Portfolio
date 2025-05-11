@@ -200,7 +200,7 @@
             const githubUsername = 'Mr-Captain-Max'; // Just the username, not URL
             const repoName = 'Personal-Portfolio';   // Just the repo name, not URL
             const filePath = 'emails.txt';           // Just the filename
-            const githubToken = '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';   // Replace with your actual token
+            // const githubToken = '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';   // Replace with your actual token
             
             // First, get the current content of the file - CORRECTED API ENDPOINT
             fetch(`https://api.github.com/repos/${githubUsername}/${repoName}/contents/${filePath}`, {
