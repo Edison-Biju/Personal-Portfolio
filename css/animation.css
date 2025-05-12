@@ -67,3 +67,40 @@
   .moveup.active {
     animation-play-state: running;
   }
+
+
+
+.lefttoright {
+  animation: leftToRightFade 3s ease-in-out forwards;
+  opacity: 0; /* Start invisible */
+}
+
+@keyframes leftToRightFade {
+  from {
+    transform: translateX(-12w);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+
+
+.movingup {
+  animation: moveUpFade 0.9s ease-in-out forwards;
+  opacity: 0; /* Start invisible */
+  transform: translateY(6vh); /* Start off-screen at the bottom */
+}
+
+@keyframes moveUpFade {
+  from {
+    opacity: 0;
+    transform: translateY(6vh);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
