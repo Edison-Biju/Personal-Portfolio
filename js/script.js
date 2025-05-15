@@ -340,7 +340,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
 
 document.addEventListener('DOMContentLoaded', () => {
-    const downloadButtons = document.querySelectorAll('.downloadcv');
+    const downloadButtons = document.querySelectorAll('.downloadcv2');
     
     downloadButtons.forEach(button => {
         button.addEventListener('click', () => {
