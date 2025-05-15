@@ -875,8 +875,38 @@ section.mainsection section.wrapper div.mainsectionbtns {
     bottom: 8rem;
     font-size: 19px;
 }
-
-
+div.miniportfolio img.tt {
+    position: relative;
+    display: block;
+    height: 52vh
+;
+    left: 18%;
+    top: 43px;
+    border-radius: 6px;
+}
+div.miniportfolio img.miniportfolioclose {
+    position: absolute;
+    right: 0;
+    left: 79vw;
+    top: 6.5vh;
+    display: block;
+    height: 3vh;
+    z-index: 999999;
+    cursor: pointer;
+}
+div.miniportfolio button.downloadcv {
+    left: 47%;
+    font-size: 11px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    padding: 4px 18px;
+    top: 53.5vh;
+    border-radius: 4px;
+}
+div.miniportfolio button.downloadcv img {
+    display: block;
+    height: 1.5vh;
+    margin-left: 6px;
+}
 
 
 

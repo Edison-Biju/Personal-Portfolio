@@ -184,6 +184,11 @@
             e.preventDefault();
         });
 
+
+
+
+
+
         document.getElementById('subscribe').addEventListener('click', function() {
             const email = document.getElementById('emailarea').value.trim();
             const messageDiv = document.getElementById('message');
