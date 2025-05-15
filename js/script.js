@@ -267,6 +267,31 @@
 
 
 
+document.addEventListener('DOMContentLoaded', () => {
+    // Select all elements with class "hireme"
+    const hireMeElements = document.querySelectorAll('.hireme');
+    
+    hireMeElements.forEach(element => {
+        // Add click event listener to each element
+        element.addEventListener('click', function(e) {
+            // Prevent default action if it's a link or button
+            e.preventDefault();
+            
+            // Create a temporary link element
+            const mailLink = document.createElement('a');
+            mailLink.href = 'mailto:edisonbijumullappallil@gmail.com';
+            
+            // Append to body and trigger click
+            document.body.appendChild(mailLink);
+            mailLink.click();
+            
+            // Remove the temporary element
+            document.body.removeChild(mailLink);
+        });
+    });
+});
+
+
          
 
         

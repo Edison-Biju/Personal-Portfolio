@@ -98,7 +98,8 @@ header section.wrapper section.right button.hireme {
     font-weight: 600;
     color: #fff;
     border-radius: 6px;
-
+    position: sticky;
+    z-index: 9999  ;
 }
 section.mainsection {
     background: #F6F8FF;
