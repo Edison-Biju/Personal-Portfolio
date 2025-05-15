@@ -344,8 +344,8 @@ document.addEventListener('DOMContentLoaded', () => {
     
     downloadButtons.forEach(button => {
         button.addEventListener('click', () => {
-            // Use the specific GitHub URL for the PDF
-            const pdfUrl = 'https://github.com/Edison-Biju/Personal-Portfolio/blob/main/documents/EDISON-CV.pdf';
+            // Use the raw GitHub URL for direct file access
+            const pdfUrl = 'https://raw.githubusercontent.com/Edison-Biju/Personal-Portfolio/main/documents/EDISON-CV.pdf';
 
             // Create a temporary link element
             const link = document.createElement('a');
