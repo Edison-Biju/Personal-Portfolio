@@ -246,6 +246,7 @@ section.services section.wrapper section.middle ul li {
     padding: 16px;
     border-radius: 8px;
     width: 23.33%;
+    min-height: 26vh;
 }
 section.services section.wrapper section.middle ul li section.liwrap {}
 
@@ -628,7 +629,7 @@ section.reviewtopimage {}
 
 section.reviewtopimage img {
     display: block;
-    width: 100%;
+    width: 105%;
 }
 section.reviewbottomimage {}
 
