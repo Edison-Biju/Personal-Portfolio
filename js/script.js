@@ -370,25 +370,33 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-button.addEventListener('click', () => {
-    // Download logic...
 
-    // Add feedback message
-    const message = document.createElement('div');
-    message.textContent = 'Downloading CV...';
-    message.style.position = 'fixed';
-    message.style.bottom = '20px';
-    message.style.left = '50%';
-    message.style.transform = 'translateX(-50%)';
-    message.style.backgroundColor = '#333';
-    message.style.color = '#fff';
-    message.style.padding = '10px 20px';
-    message.style.borderRadius = '4px';
-    document.body.appendChild(message);
-
-    // Remove message after 3 seconds
-    setTimeout(() => {
-        document.body.removeChild(message);
-    }, 3000);
-});
         
+
+
+ document.addEventListener('DOMContentLoaded', () => {
+            const counters = document.querySelectorAll('.loadtocount');
+            
+            counters.forEach(counter => {
+                const finalText = counter.textContent;
+                const match = finalText.match(/(\d+)(.*)/);
+                
+                if (match) {
+                    const target = parseInt(match[1]);
+                    const suffix = match[2];
+                    let current = 0;
+                    const duration = 10000; // Animation duration in ms
+                    const interval = 20;   // Update interval in ms
+                    const increment = target / (duration / interval);
+
+                    const timer = setInterval(() => {
+                        current += increment;
+                        if (current >= target) {
+                            clearInterval(timer);
+                            current = target;
+                        }
+                        counter.textContent = Math.floor(current) + suffix;
+                    }, interval);
+                }
+            });
+        });

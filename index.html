@@ -12,6 +12,11 @@
     <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
 </head>
 <body>
+
+    <!-- (loader for website)!-->
+        <!-- <span class="loader"></span> -->
+    <!--(loader for website)! -->
+
     <!--(elements to hide/unhide started)!-->
         <div class="greyshade hide"></div>
         <div class="miniportfolio hide">
@@ -199,15 +204,15 @@
             <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</h6>
             <ul class="moveright">
                 <li>
-                    <h2>20+</h2>
+                    <h2 class="loadtocount">20+</h2>
                     <h4>Project completed</h4>
                 </li>
                 <li>
-                    <h2>98%</h2>
+                    <h2 class="loadtocount">98%</h2>
                     <h4>Tutor Satisfied</h4>
                 </li>
                 <li>
-                    <h2>100%</h2>
+                    <h2 class="loadtocount">100%</h2>
                     <h4>Design Project</h4>
                 </li>
             </ul>
@@ -749,5 +754,15 @@
 
     <script src="js/script.js"></script>
     <script src="js/animation.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Existing scripts...
+
+            // Loading screen functionality
+            setTimeout(() => {
+                document.body.classList.add('loaded');
+            }, 1500); // Adjust this delay as needed
+        });
+    </script>
 </body>
 </html>
