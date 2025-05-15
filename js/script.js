@@ -299,6 +299,91 @@
         });
 
 
-         
+document.addEventListener('DOMContentLoaded', () => {
+    // Add CSS styles dynamically
+    const style = document.createElement('style');
+    style.textContent = `
+        .miniportfolio {
+            opacity: 1;
+            transform: translateY(0);
+            transition: opacity 1.5s ease, transform 1.5s ease, max-height 1.5s ease;
+        }
+        .hide {
+            opacity: 0;
+            transform: translateY(20px);    
+        }
+    `;
+    document.head.appendChild(style);
 
+    // Show portfolio functionality
+    const showPortfolioButtons = document.querySelectorAll('.showportfolio');
+    showPortfolioButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            const miniPortfolio = document.querySelector('.miniportfolio'); // Use querySelector
+            const greyshade = document.querySelector('.greyshade'); // Use querySelector
+            if (miniPortfolio) miniPortfolio.classList.remove('hide');
+            if (greyshade) greyshade.classList.remove('hide');
+        });
+    });
+
+    // Close portfolio functionality
+    const closePortfolioButtons = document.querySelectorAll('.miniportfolioclose');
+    closePortfolioButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            const miniPortfolio = document.querySelector('.miniportfolio'); // Use querySelector
+            const greyshade = document.querySelector('.greyshade'); // Use querySelector
+            if (miniPortfolio) miniPortfolio.classList.add('hide');
+            if (greyshade) greyshade.classList.add('hide');
+        });
+    });
+});
+    
+
+document.addEventListener('DOMContentLoaded', () => {
+    const downloadButtons = document.querySelectorAll('.downloadcv');
+    
+    downloadButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            // Update the path below to match your actual folder location
+            const pdfFilePath = '../documents/EDISON-CV.pdf'; // Example folder path
+
+            // Create a temporary link element
+            const link = document.createElement('a');
+            link.href = pdfFilePath; // Path to your PDF file
+            link.download = 'EDISON-CV.pdf'; // Set the filename
+            
+            // Append to body and trigger download
+            document.body.appendChild(link);
+            link.click();
+            
+            // Clean up the temporary element
+            document.body.removeChild(link);
+        });
+    });
+});
+
+
+
+
+button.addEventListener('click', () => {
+    // Download logic...
+
+    // Add feedback message
+    const message = document.createElement('div');
+    message.textContent = 'Downloading CV...';
+    message.style.position = 'fixed';
+    message.style.bottom = '20px';
+    message.style.left = '50%';
+    message.style.transform = 'translateX(-50%)';
+    message.style.backgroundColor = '#333';
+    message.style.color = '#fff';
+    message.style.padding = '10px 20px';
+    message.style.borderRadius = '4px';
+    document.body.appendChild(message);
+
+    // Remove message after 3 seconds
+    setTimeout(() => {
+        document.body.removeChild(message);
+    }, 3000);
+});
         

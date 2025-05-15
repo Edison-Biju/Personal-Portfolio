@@ -26,7 +26,9 @@ section.mainsection section.wrapper div.pimg img
     height: 128vh;
 }
 
-
+.hide{
+    display: none;
+}
 
 button{
     cursor: pointer;
@@ -1213,4 +1215,61 @@ footer section.wrapper section.bottom section.right a.Cookies.ptc {
     text-decoration: underline;
     font-size: 13px;
     font-family: 'Inter SemiBold';
+}
+
+
+
+div.miniportfolio {
+    position: absolute;
+    z-index: 9999;
+}
+div.miniportfolio img.miniportfolioclose {
+    position: absolute;
+    right: 0;
+    left: 64vw;
+    top: 6.5vh;
+    display: block;
+    height: 3.8vh;
+    z-index: 999999;
+    cursor: pointer;
+}
+
+div.miniportfolio img.tt {
+    position: relative;
+    display: block;
+    height: 89vh;
+    left: 88%;
+    top: 43px;
+    border-radius: 6px;
+}
+
+div.greyshade {
+    height: 100vh;
+    background: #e4dfdf;
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    opacity: 60%;
+}
+div.miniportfolio button.downloadcv
+ {
+    border: none;
+    position: absolute;
+    z-index: 999999;
+    display: flex;
+    align-items: center;
+    left: 125%;
+    font-size: 14px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    padding: 10px 24px;
+    top: 87.5vh;
+    background: #fff;
+    border-radius: 6px;
+    font-family: 'Inter medium';
+}
+div.miniportfolio button.downloadcv img{
+    display: block;
+    height: 2vh;
+    margin-left: 6px;
 }
