@@ -344,13 +344,12 @@ document.addEventListener('DOMContentLoaded', () => {
     
     downloadButtons.forEach(button => {
         button.addEventListener('click', () => {
-            // Update the path below to match your actual folder location
-            const pdfFilePath = '../documents/EDISON-CV.pdf'; // Example folder path
+            // Update this path to match your project structure
+            const pdfFilePath = 'documents/EDISON-CV.pdf';
 
-            // Create a temporary link element
             const link = document.createElement('a');
-            link.href = pdfFilePath; // Path to your PDF file
-            link.download = 'EDISON-CV.pdf'; // Set the filename
+            link.href = pdfFilePath;
+            link.download = 'EDISON-CV.pdf'; // Suggested filename
             
             // Append to body and trigger download
             document.body.appendChild(link);
