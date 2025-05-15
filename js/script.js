@@ -344,11 +344,12 @@ document.addEventListener('DOMContentLoaded', () => {
     
     downloadButtons.forEach(button => {
         button.addEventListener('click', () => {
-            // Update this path to match your project structure
-            const pdfFilePath = 'documents/EDISON-CV.pdf';
+            // Use the specific GitHub URL for the PDF
+            const pdfUrl = 'https://github.com/Edison-Biju/Personal-Portfolio/blob/main/documents/EDISON-CV.pdf';
 
+            // Create a temporary link element
             const link = document.createElement('a');
-            link.href = pdfFilePath;
+            link.href = pdfUrl;
             link.download = 'EDISON-CV.pdf'; // Suggested filename
             
             // Append to body and trigger download
