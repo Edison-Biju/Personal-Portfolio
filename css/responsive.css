@@ -907,7 +907,7 @@ div.miniportfolio button.downloadcv img {
     height: 1.5vh;
     margin-left: 6px;
 }
-body{
+body,html{
     overflow-x: hidden;
 }
 
